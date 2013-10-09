@@ -1,0 +1,106 @@
+/* Reusable */
+
+	.button, .ipmControlSubmit 
+	{
+		display: inline-block;
+		background: @ipLinkColor;
+		box-shadow: inset 0px 0px 0px 1px @ipLinkColorSubBorder, 0px 2px 3px 0px rgba(0,0,0,0.25);
+		border: solid 1px @ipLinkColor;
+		border-radius: 6px;
+		padding: 0.45em 1.1em 0.5em 1.1em;
+		color: #fff;
+		font-size: 0.8em;
+		text-decoration: none;
+		text-shadow: -1px -1px 0 rgba(0,0,0,0.5);
+		background-image: -moz-linear-gradient(top, @ipLinkColorAlternative, @ipLinkColor);
+		background-image: -webkit-linear-gradient(top, @ipLinkColorAlternative, @ipLinkColor);
+		background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(@ipLinkColorAlternative), to(@ipLinkColor));
+		background-image: -ms-linear-gradient(top, @ipLinkColorAlternative, @ipLinkColor);
+		background-image: -o-linear-gradient(top, @ipLinkColorAlternative, @ipLinkColor);
+		background-image: linear-gradient(top, @ipLinkColorAlternative, @ipLinkColor);
+		outline: 0;
+		white-space: nowrap;
+	}
+
+	.button:hover, .ipmControlSubmit:hover
+	{
+		background: @ipLinkColorHover;
+		background-image: -moz-linear-gradient(top, @ipLinkColorHover2, @ipLinkColorHover);
+		background-image: -webkit-linear-gradient(top, @ipLinkColorHover2, @ipLinkColorHover);
+		background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(@ipLinkColorHover2), to(@ipLinkColorHover));
+		background-image: -ms-linear-gradient(top, @ipLinkColorHover2, @ipLinkColorHover);
+		background-image: -o-linear-gradient(top, @ipLinkColorHover2, @ipLinkColorHover);
+		background-image: linear-gradient(top, @ipLinkColorHover2, @ipLinkColorHover);
+	}
+
+	.button:active
+	{
+		background: @ipLinkColorAlternative;
+		background-image: -moz-linear-gradient(top, @ipLinkColor, @ipLinkColorAlternative);
+		background-image: -webkit-linear-gradient(top, @ipLinkColor, @ipLinkColorAlternative);
+		background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(@ipLinkColor), to(@ipLinkColorAlternative));
+		background-image: -ms-linear-gradient(top, @ipLinkColor, @ipLinkColorAlternative);
+		background-image: -o-linear-gradient(top, @ipLinkColor, @ipLinkColorAlternative);
+		background-image: linear-gradient(top, @ipLinkColor, @ipLinkColorAlternative);
+	}
+
+	.link-list li
+	{
+		border-top: solid 1px #d0d0d0;
+		line-height: 2.5em;
+	}
+	
+	.link-list li:first-child
+	{
+		border-top: none;
+	}
+
+	/* Site Nav */
+
+	#nav
+	{	
+		float: right;
+		padding-right: 30px;
+		font-family:  @ipFontFamily;
+		text-align: right;
+	}
+
+		#nav ul
+		{
+			list-style: none;
+			overflow: hidden;
+		}
+
+			#nav ul li
+			{
+				display: block;
+				float: left;
+				text-decoration: none;
+				font-size: 1.2em;
+				line-height: 90px;
+				margin: 0 0 0 1.75em;
+			}
+
+				#nav ul li a
+				{
+					color: #c0c0c0;
+					text-decoration: none;
+					outline: 0;
+				}
+
+				#nav ul li a:hover
+				{
+					color: #eee;
+				}
+
+			#nav ul li.current
+			{
+				background: url('images/nav-arrow.png') center 77px no-repeat;
+			}
+
+				#nav ul li.current a
+				{
+					color: #fff;
+				}
+
+

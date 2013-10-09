@@ -1,0 +1,89 @@
+{
+    "title": "html5up Arcana",
+    "version": "1.00",
+    "doctype": "HTML5", /* HTML5, XHTML1_STRICT, XHTML1_TRANSITIONAL, XHTML1_FRAMESET, HTML4_STRICT, HTML4_TRANSITIONAL, HTML4_FRAMESET  */
+    "thumbnail": "thumbnail.png",
+    "author": "ImpressPages",
+    "widget": { /* Image cropping settings for widgets. Require theme reinstall to take affect. */
+        "image": {
+            "width": 373,
+            "height": 400,
+            "bigWidth": 800, /* Lightbox */
+            "bigHeight": 600 /* Lightbox */
+        },
+        "imageGallery": {
+            "width": 177,
+            "height": 99,
+            "bigWidth": 800, /* Lightbox */
+            "bigHeight": 600 /* Lightbox */
+        },
+        "logoGallery": {
+            "width": 177,
+            "height": 99
+        },
+        "textImage": {
+            "width": 373,
+            "height": 600, /* height is flexible, setting the max */
+            "bigWidth": 800, /* Lightbox */
+            "bigHeight": 600 /* Lightbox */
+        }
+    },
+    "options": [
+        {
+            "label": "Text color",
+            "name": "textColor",
+            "type": "color",
+            "default": "#696969"
+        },
+        {
+            "label": "Link color",
+            "name": "linkColor",
+            "type": "color",
+            "default": "#0090c5"
+        },
+        {
+            "label": "Text background color",
+            "name": "backgroundColor",
+            "type": "color",
+            "default": "#fff"
+        },
+        {
+            "label": "Heading color",
+            "name": "headingColor",
+            "type": "color",
+            "default": "#444"
+        },
+        {
+            "label": "Heading background color",
+            "name": "headingBackgroundColor",
+            "type": "color",
+            "default": "#212121"
+        },        
+        {
+            "label": "Footer text color",
+            "name": "footerColor",
+            "type": "color",
+            "default": "#696969"
+        },
+        {
+            "label": "Lightbox style",
+            "name": "lightboxStyle",
+            "type": "select",
+            "default": "4",
+            "values": [1, 2, 3, 4, 5]
+        },
+        {
+            "label": "Show homepage banner",
+            "name": "showHomeBanner",
+            "type": "check",
+            "default": true
+        },
+        {
+            "label": "Show footer",
+            "name": "showFooter",
+            "type": "check",
+            "default": true
+        }
+    ]
+
+}

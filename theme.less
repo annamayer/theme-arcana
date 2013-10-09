@@ -1,0 +1,116 @@
+@import '@{ipContentDir}/ipContent.less';
+@import 'less/config.less';
+@import 'less/tiny_mce.less';
+@import 'less/header.less';
+@import 'less/banner.less';
+@import 'less/nav.less';
+@import 'less/style.less';
+@import 'less/style-desktop.less';
+
+body{
+	margin: 0 auto;
+	width: 100%;
+}
+
+.banner, .bannerStrong{
+	font-family: @ipFontFamilyHeadlines;
+}
+
+#cboxWrapper{
+	font-size: 0.75 em;
+	line-height: 1em;
+}
+
+@import: url('http://fonts.googleapis.com/css?family=Open+Sans+Condensed');
+
+.ipPreviewWidget{
+	h1, h2, h3, h4, p{
+		font-family: @ipFontFamily;
+	}
+}
+
+.ipmErrorMessage, .ipModuleForm .ipmControlInput, .ipModuleForm .ipmControlSelect, .ipModuleForm .ipmControlTextarea {
+	font-family: @ipFontFamily;
+	font-size: 100%;
+}
+
+.ipmFileContainer{
+	max-width: 380px;
+}
+
+.ipmString{
+	line-height: 100%;
+}
+
+@media (max-width:480px){
+
+	.container{
+		width: inherit;
+	}
+
+	.body img{
+		width: 100%;
+		height: auto;
+	}
+
+	.logo{
+		clear: both;
+		display: block;
+		float: none;
+		text-align: center;
+		padding: 0;
+	}
+
+	#header-wrapper{
+		padding: 0;
+	}
+
+	#nav{
+		padding-right: 0;
+		padding-bottom: 15px;
+	}
+
+	#nav, #nav ul li{
+		float: none;
+		margin: 0;
+	}
+
+	#nav ul li{
+		clear: both;
+		line-height: normal;
+		padding: 0;
+	}
+
+	#nav a{
+		display: block;
+		text-align: center;
+	}
+
+	.row > *{
+		padding: 0;
+		width: 100%;
+	}
+
+	.subpage{
+		padding: 0;
+	}
+
+	.ipBlock{
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+
+}
+
+@media (min-width:480px){
+	.subpage
+	{
+		padding-top: 4em !important;
+	}
+
+	#ipBlock-home1, #ipBlock-home2, #ipBlock-home3{
+		 .ipWidget-IpImageGallery li{
+			width: 50%;
+		}
+	}
+}

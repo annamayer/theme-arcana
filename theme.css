@@ -1,0 +1,1176 @@
+/* Edit theme.less, not this file. */ @import url('http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700&1');
+.clear {
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  content: '.';
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+html,
+body {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.caption {
+  color: #696969;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+}
+.signature {
+  color: #696969;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 19px;
+  font-style: italic;
+  font-weight: normal;
+}
+.note {
+  background-color: transparent;
+  border-left-color: #747474;
+  border-left-style: solid;
+  border-left-width: 2px;
+  color: #696969;
+  display: block;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 19px;
+  font-style: italic;
+  font-weight: normal;
+  margin-bottom: 2em;
+  padding-left: 1em;
+}
+.button {
+  background-color: #0090c5;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  padding: 0.5em 1em 0.5em 1em;
+  text-decoration: none;
+}
+.ipWidget {
+  zoom: 1;
+  margin-bottom: 20px;
+}
+.ipWidget:before,
+.ipWidget:after {
+  content: '.';
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+}
+.ipWidget:after {
+  clear: both;
+}
+.ipWidget:last-child {
+  margin-bottom: 0;
+}
+.ipPreviewWidget {
+  color: #696969;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 19px;
+}
+.ipPreviewWidget h1,
+.ipPreviewWidget h2,
+.ipPreviewWidget h3,
+.ipPreviewWidget h4,
+.ipPreviewWidget h5,
+.ipPreviewWidget h6,
+.ipPreviewWidget img,
+.ipPreviewWidget blockquote,
+.ipPreviewWidget p,
+.ipPreviewWidget ul,
+.ipPreviewWidget ol,
+.ipPreviewWidget li,
+.ipPreviewWidget dl,
+.ipPreviewWidget dd,
+.ipPreviewWidget dt,
+.ipPreviewWidget pre {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.ipPreviewWidget .caption {
+  color: #696969;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+}
+.ipPreviewWidget .signature {
+  color: #696969;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 19px;
+  font-style: italic;
+  font-weight: normal;
+}
+.ipPreviewWidget .note {
+  background-color: transparent;
+  border-left-color: #747474;
+  border-left-style: solid;
+  border-left-width: 2px;
+  color: #696969;
+  display: block;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 19px;
+  font-style: italic;
+  font-weight: normal;
+  margin-bottom: 2em;
+  padding-left: 1em;
+}
+.ipPreviewWidget .button {
+  background-color: #0090c5;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  padding: 0.5em 1em 0.5em 1em;
+  text-decoration: none;
+  background: #0090c5;
+  box-shadow: inset 0px 0px 0px 1px #5fd4ff, 0px 2px 3px 0px rgba(0,0,0,0.25);
+  border: solid 1px #0090c5;
+  border-radius: 6px;
+  padding: 0.45em 1.1em 0.5em 1.1em;
+  font-size: 0.8em;
+  text-shadow: -1px -1px 0 rgba(0,0,0,0.5);
+  background-image: -moz-linear-gradient(top,,#0090c5);
+  background-image: -webkit-linear-gradient(top,,#0090c5);
+  background-image: -webkit-gradient(linear,0% 0%,0% 100%,from(),to(#0090c5));
+  background-image: -ms-linear-gradient(top,,#0090c5);
+  background-image: -o-linear-gradient(top,,#0090c5);
+  background-image: linear-gradient(top,,#0090c5);
+  outline: 0;
+  white-space: nowrap;
+}
+.ipPreviewWidget h1 {
+  color: #1d1d1d;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 36px;
+}
+.ipPreviewWidget h2 {
+  color: #1d1d1d;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 30px;
+}
+.ipPreviewWidget h3 {
+  color: #1d1d1d;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 24px;
+}
+.ipPreviewWidget ul {
+  list-style-position: inside;
+  list-style-type: square;
+  margin: 0 0 2em 1em;
+}
+.ipPreviewWidget ol {
+  list-style-position: inside;
+  margin: 0 0 2em 1em;
+}
+.ipPreviewWidget p {
+  line-height: 1.5;
+  margin-bottom: 2em;
+}
+.ipPreviewWidget ul ul,
+.ipPreviewWidget ol ol {
+  margin-bottom: 0;
+}
+.ipPreviewWidget li {
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+.ipPreviewWidget p+ul,
+.ipPreviewWidget p+ol {
+  margin-top: -1em;
+}
+.ipPreviewWidget a {
+  color: #0090c5;
+  text-decoration: none;
+}
+.ipPreviewWidget a:hover {
+  text-decoration: underline;
+}
+.ipPreviewWidget table {
+  border-collapse: collapse;
+  color: #696969;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 19px;
+  width: 100%;
+}
+.ipPreviewWidget table p {
+  line-height: auto;
+  margin: 0;
+}
+.ipPreviewWidget td {
+  border-bottom: 1px solid #b2b2b2;
+  font-size: 19px;
+  padding: 9px;
+}
+.ipPreviewWidget th,
+.ipPreviewWidget thead td,
+.ipPreviewWidget tbody tr:first-child td {
+  font-size: 19px;
+  font-weight: bold;
+}
+.ipPreviewWidget thead+tbody tr:first-child td {
+  background-color: transparent;
+  border-bottom: 1px solid #8e8e8e;
+  color: inherit;
+  font-size: 19px;
+  font-weight: normal;
+}
+.ipPreviewWidget p:last-child,
+.ipPreviewWidget ul:last-child,
+.ipPreviewWidget ol:last-child {
+  margin-bottom: 0;
+}
+.ipModuleForm form,
+.ipModuleForm fieldset,
+.ipModuleForm label {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.ipModuleForm input,
+.ipModuleForm select,
+.ipModuleForm textarea,
+.ipModuleForm option {
+  font-family: 19px;
+  font-size: 'Open Sans Condensed', sans-serif;
+}
+.ipModuleForm .ipmPage {
+  max-width: 100%;
+  overflow: auto;
+}
+.ipModuleForm .ipmField {
+  margin-bottom: 20px;
+  position: relative;
+  zoom: 1;
+}
+.ipModuleForm .ipmField:before,
+.ipModuleForm .ipmField:after {
+  content: '.';
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+}
+.ipModuleForm .ipmField:after {
+  clear: both;
+}
+.ipModuleForm .ipmField:last-child {
+  margin-bottom: 0;
+}
+.ipModuleForm .ipmType-blank {
+  margin: -20px 0 0;
+  position: absolute;
+}
+.ipModuleForm .ipmLabel {
+  display: block;
+  font-weight: bold;
+  margin: 0 0 3px 0;
+  min-height: 1px;
+}
+.ipModuleForm .ipmControlBlank {
+  height: 0;
+  margin: 0;
+  padding: 0;
+  visibility: hidden;
+  width: 0;
+}
+.ipModuleForm .ipmControlInput {
+  background-color: #fff;
+  border: 1px solid #747474;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #777;
+  margin: 0;
+  max-width: 380px;
+  padding: 0.5em;
+  width: 100%;
+}
+.ipModuleForm .ipmControlInput:focus {
+  background-color: #fff;
+  border-color: #000;
+  color: #000;
+}
+.ipModuleForm .ipmControlTextarea {
+  background-color: #fff;
+  border: 1px solid #747474;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #777;
+  margin: 0;
+  max-width: 380px;
+  padding: 0.5em;
+  width: 100%;
+  height: 10em;
+  overflow: auto;
+}
+.ipModuleForm .ipmControlTextarea:focus {
+  background-color: #fff;
+  border-color: #000;
+  color: #000;
+}
+.ipModuleForm .ipmControlSelect {
+  background-color: #fff;
+  border: 1px solid #747474;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #777;
+  margin: 0;
+  max-width: 380px;
+  padding: 0.5em;
+  width: 100%;
+}
+.ipModuleForm .ipmControlSelect:focus {
+  background-color: #fff;
+  border-color: #000;
+  color: #000;
+}
+.ipModuleForm .ipmType-confirm .ipmControlCheckbox {
+  float: left;
+}
+.ipModuleForm .ipmControlConfirmOptions {
+  margin-left: 25px;
+}
+.ipModuleForm .ipmType-captcha .ipmControl img {
+  display: block;
+  max-width: 100%;
+}
+.ipModuleForm .ipmNote {
+  color: #9c9c9c;
+  font-size: 12px;
+}
+.ipModuleForm .ipmHint {
+  background-color: #747474;
+  color: #fff;
+  display: none;
+  font-size: 12px;
+  padding: 4px 10px 2px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  z-index: 1;
+}
+.ipModuleForm .ipmField:hover .ipmHint {
+  display: block;
+}
+.ipModuleForm .ipmControlSubmit {
+  background: #0090c5;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.5em 1em;
+}
+.ipModuleForm .ipmControlSubmit:hover {
+  box-shadow: 0 0 0 1px #0090c5 inset;
+  background: #00455f;
+}
+.ipModuleForm .ipmControlError {
+  border-color: #b80000;
+}
+.ipModuleForm .ipmFileContainer .ipmHiddenInput {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+.ipModuleForm .ipmFileContainer .ipmHiddenInput input {
+  margin: 0;
+  padding: 0;
+}
+.ipModuleForm .ipmFileContainer .ipmFile {
+  background-color: #a7a7a7;
+  margin-top: 5px;
+  padding: 0.5em;
+}
+.ipModuleForm .ipmFileContainer .ipmFile .ipmRemove {
+  cursor: pointer;
+  float: right;
+}
+.ipModuleForm .ipmFileContainer .ipmFile .ipmRemove:before {
+  border: 1px solid #747474;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 13px;
+  color: #696969;
+  content: '\00D7';
+  display: inline-block;
+  height: 15px;
+  line-height: 15px;
+  text-align: center;
+  width: 15px;
+}
+.ipModuleForm .ipmFileContainer .ipmFile .ipmRemove:hover:before {
+  background-color: #000;
+  color: #fff;
+}
+.ipModuleForm .ipmFileContainer .ipmFile .ipmFileProgress {
+  border: 1px solid #747474;
+  height: 3px;
+}
+.ipModuleForm .ipmFileContainer .ipmFile .ipmFileProgressValue {
+  background-color: #747474;
+  height: 3px;
+}
+.ipModuleForm .ipmFileContainer .ipmFile .ipmUploadError {
+  color: #b80000;
+  font-size: 12px;
+}
+.ipmErrorMessage {
+  background-color: #b80000;
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 10px 2px;
+}
+.mceContentBody {
+  color: #696969;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 19px;
+  background-color: #fff;
+}
+.mceContentBody h1,
+.mceContentBody h2,
+.mceContentBody h3,
+.mceContentBody h4,
+.mceContentBody p {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.mceContentBody h1,
+.mceContentBody h2,
+.mceContentBody h3,
+.mceContentBody h4,
+.mceContentBody h5,
+.mceContentBody h6,
+.mceContentBody img,
+.mceContentBody blockquote,
+.mceContentBody p,
+.mceContentBody ul,
+.mceContentBody ol,
+.mceContentBody li,
+.mceContentBody dl,
+.mceContentBody dd,
+.mceContentBody dt,
+.mceContentBody pre {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.mceContentBody .caption {
+  color: #696969;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+}
+.mceContentBody .signature {
+  color: #696969;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 19px;
+  font-style: italic;
+  font-weight: normal;
+}
+.mceContentBody .note {
+  background-color: transparent;
+  border-left-color: #747474;
+  border-left-style: solid;
+  border-left-width: 2px;
+  color: #696969;
+  display: block;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 19px;
+  font-style: italic;
+  font-weight: normal;
+  margin-bottom: 2em;
+  padding-left: 1em;
+}
+.mceContentBody .button {
+  background-color: #0090c5;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  padding: 0.5em 1em 0.5em 1em;
+  text-decoration: none;
+  background: #0090c5;
+  box-shadow: inset 0px 0px 0px 1px #5fd4ff, 0px 2px 3px 0px rgba(0,0,0,0.25);
+  border: solid 1px #0090c5;
+  border-radius: 6px;
+  padding: 0.45em 1.1em 0.5em 1.1em;
+  font-size: 0.8em;
+  text-shadow: -1px -1px 0 rgba(0,0,0,0.5);
+  background-image: -moz-linear-gradient(top,,#0090c5);
+  background-image: -webkit-linear-gradient(top,,#0090c5);
+  background-image: -webkit-gradient(linear,0% 0%,0% 100%,from(),to(#0090c5));
+  background-image: -ms-linear-gradient(top,,#0090c5);
+  background-image: -o-linear-gradient(top,,#0090c5);
+  background-image: linear-gradient(top,,#0090c5);
+  outline: 0;
+  white-space: nowrap;
+}
+.mceContentBody h1 {
+  color: #1d1d1d;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 36px;
+}
+.mceContentBody h2 {
+  color: #1d1d1d;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 30px;
+}
+.mceContentBody h3 {
+  color: #1d1d1d;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 24px;
+}
+.mceContentBody ul {
+  list-style-position: inside;
+  list-style-type: square;
+  margin: 0 0 2em 1em;
+}
+.mceContentBody ol {
+  list-style-position: inside;
+  margin: 0 0 2em 1em;
+}
+.mceContentBody p {
+  line-height: 1.5;
+  margin-bottom: 2em;
+}
+.mceContentBody ul ul,
+.mceContentBody ol ol {
+  margin-bottom: 0;
+}
+.mceContentBody li {
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+.mceContentBody p+ul,
+.mceContentBody p+ol {
+  margin-top: -1em;
+}
+.mceContentBody a {
+  color: #0090c5;
+  text-decoration: none;
+}
+.mceContentBody a:hover {
+  text-decoration: underline;
+}
+.mceContentBody table {
+  border-collapse: collapse;
+  color: #696969;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 19px;
+  width: 100%;
+}
+.mceContentBody table p {
+  line-height: auto;
+  margin: 0;
+}
+.mceContentBody td {
+  border-bottom: 1px solid #b2b2b2;
+  font-size: 19px;
+  padding: 9px;
+}
+.mceContentBody th,
+.mceContentBody thead td,
+.mceContentBody tbody tr:first-child td {
+  font-size: 19px;
+  font-weight: bold;
+}
+.mceContentBody thead+tbody tr:first-child td {
+  background-color: transparent;
+  border-bottom: 1px solid #8e8e8e;
+  color: inherit;
+  font-size: 19px;
+  font-weight: normal;
+}
+.mceContentBody p:last-child,
+.mceContentBody ul:last-child,
+.mceContentBody ol:last-child {
+  margin-bottom: 0;
+}
+.ipWidget-IpFaq {
+  padding-left: 30px;
+}
+.ipWidget-IpFaq .ipwQuestion {
+  color: #696969;
+  cursor: pointer;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+.ipWidget-IpFaq .ipwQuestion:hover {
+  text-decoration: underline;
+}
+.ipWidget-IpFaq .ipwQuestion:hover:before {
+  background-color: #f3f3f3;
+}
+.ipWidget-IpFaq .ipwQuestion:before {
+  border: 1px solid #000;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: #696969;
+  content: '?';
+  display: block;
+  margin: 3px 0 0 -30px;
+  padding: 1px 2px;
+  position: absolute;
+}
+.ipWidget-IpFaq .ipwQuestion .ipwAnswer {
+  margin-top: 5px;
+}
+.ipWidget-IpFaq .ipwQuestion .ipwCollapsed .ipwAnswer {
+  display: none;
+}
+.ipWidget-IpFaq .ipwExpanded .ipwQuestion:before {
+  background-color: #000;
+  color: #fff;
+}
+.ipWidget-IpFile ul {
+  list-style: none;
+  margin-left: 0;
+}
+.ipWidget-IpFile a {
+  color: #0090c5;
+  font-weight: bold;
+}
+.ipWidget-IpFile a:hover {
+  text-decoration: underline;
+}
+.ipWidget-IpForm .ipwSuccess {
+  border: 1px solid #888;
+  display: none;
+  padding: 20px 25px;
+}
+.ipWidget-IpHtml {
+  max-width: 100%;
+  overflow: auto;
+}
+.ipWidget-IpImage img {
+  display: block;
+  max-width: 100%;
+}
+.ipWidget-IpImageGallery {
+  margin-bottom: 0px;
+}
+.ipWidget-IpImageGallery ul {
+  list-style: none;
+  margin: 0 -10px;
+}
+.ipWidget-IpImageGallery li {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  width: 25%;
+}
+.ipWidget-IpImageGallery li img {
+  display: block;
+  width: 100%;
+}
+@media screen and (max-width: 480px) {
+  .ipWidget-IpImageGallery ul {
+    margin: 0 -10px;
+  }
+  .ipWidget-IpImageGallery li {
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+}
+.ipWidget-IpLogoGallery {
+  margin-bottom: 0px;
+}
+.ipWidget-IpLogoGallery ul {
+  list-style: none;
+  margin: 0 -10px;
+}
+.ipWidget-IpLogoGallery li {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  width: 25%;
+}
+.ipWidget-IpLogoGallery li img {
+  display: block;
+  width: 100%;
+}
+@media screen and (max-width: 480px) {
+  .ipWidget-IpLogoGallery ul {
+    margin: 0 -10px;
+  }
+  .ipWidget-IpLogoGallery li {
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+}
+.ipWidget-IpRichText pre {
+  max-width: 100%;
+  overflow: auto;
+}
+.ipWidget-IpSeparator.ipLayout-default {
+  border-bottom: 1px solid #747474;
+  height: 0;
+  overflow: hidden;
+}
+.ipWidget-IpSeparator.ipLayout-space {
+  height: 25px;
+}
+.ipWidget-IpTable {
+  max-width: 100%;
+  overflow: auto;
+}
+.ipWidget-IpTextImage .ipwImage {
+  float: left;
+  margin: 0 20px 20px 0;
+  max-width: 100%;
+}
+.ipWidget-IpTextImage.ipLayout-right .ipwImage {
+  float: right;
+  margin: 0 0 20px 20px;
+}
+.ipWidget-IpTitle {
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+.ipWidget-IpTitle:first-child {
+  padding-top: 0;
+}
+.mceContentBody {
+  background-color: #fff;
+  color: #696969;
+  font-family: ;
+  font-size: ;
+}
+.mceContentBody p {
+  font-family: ;
+}
+#tinymce p span {
+  background-color: #fff;
+  color: #696969;
+}
+.logo {
+  display: inline-block;
+  float: left;
+  font-size: 2.25em;
+  height: 85px;
+  letter-spacing: -1px;
+  line-height: 85px;
+  padding-left: 40px;
+}
+.logo,
+.logo a {
+  color: #fff;
+  text-decoration: none;
+}
+#banner {
+  margin: 0 0 3em 0;
+}
+#banner a img {
+  width: 100%;
+  display: block;
+}
+#banner .caption {
+  background: #1e1e1e url('images/bg3.png') top left repeat-x;
+  font-size: 2em;
+  color: #aaa;
+  text-align: center;
+  text-shadow: -1px -1px 1px #000000;
+  padding: 40px 0 40px 0;
+}
+#banner .caption span strong {
+  color: #ffffff;
+}
+#banner .caption .button {
+  border: solid 1px #001916;
+  margin-left: 0.8em;
+}
+.bannerStrong {
+  color: #fff;
+}
+.bannerStrongInv {
+  color: #696969;
+}
+.button,
+.ipmControlSubmit {
+  display: inline-block;
+  background: #0090c5;
+  box-shadow: inset 0px 0px 0px 1px #5fd4ff, 0px 2px 3px 0px rgba(0,0,0,0.25);
+  border: solid 1px #0090c5;
+  border-radius: 6px;
+  padding: 0.45em 1.1em 0.5em 1.1em;
+  color: #fff;
+  font-size: 0.8em;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 rgba(0,0,0,0.5);
+  background-image: -moz-linear-gradient(top,,#0090c5);
+  background-image: -webkit-linear-gradient(top,,#0090c5);
+  background-image: -webkit-gradient(linear,0% 0%,0% 100%,from(),to(#0090c5));
+  background-image: -ms-linear-gradient(top,,#0090c5);
+  background-image: -o-linear-gradient(top,,#0090c5);
+  background-image: linear-gradient(top,,#0090c5);
+  outline: 0;
+  white-space: nowrap;
+}
+.button:hover,
+.ipmControlSubmit:hover {
+  background: #00b5f8;
+  background-image: -moz-linear-gradient(top,#00a3df,#00b5f8);
+  background-image: -webkit-linear-gradient(top,#00a3df,#00b5f8);
+  background-image: -webkit-gradient(linear,0% 0%,0% 100%,from(#00a3df),to(#00b5f8));
+  background-image: -ms-linear-gradient(top,#00a3df,#00b5f8);
+  background-image: -o-linear-gradient(top,#00a3df,#00b5f8);
+  background-image: linear-gradient(top,#00a3df,#00b5f8);
+}
+.button:active {
+  background: ;
+  background-image: -moz-linear-gradient(top,#0090c5,);
+  background-image: -webkit-linear-gradient(top,#0090c5,);
+  background-image: -webkit-gradient(linear,0% 0%,0% 100%,from(#0090c5),to());
+  background-image: -ms-linear-gradient(top,#0090c5,);
+  background-image: -o-linear-gradient(top,#0090c5,);
+  background-image: linear-gradient(top,#0090c5,);
+}
+.link-list li {
+  border-top: solid 1px #d0d0d0;
+  line-height: 2.5em;
+}
+.link-list li:first-child {
+  border-top: none;
+}
+#nav {
+  float: right;
+  padding-right: 30px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: right;
+}
+#nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+#nav ul li {
+  display: block;
+  float: left;
+  text-decoration: none;
+  font-size: 1.2em;
+  line-height: 90px;
+  margin: 0 0 0 1.75em;
+}
+#nav ul li a {
+  color: #c0c0c0;
+  text-decoration: none;
+  outline: 0;
+}
+#nav ul li a:hover {
+  color: #eee;
+}
+#nav ul li.current {
+  background: url('images/nav-arrow.png') center 77px no-repeat;
+}
+#nav ul li.current a {
+  color: #fff;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -o-box-sizing: content-box;
+  -ms-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.body {
+  background: #f0f0f0 url('images/bg1.png');
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 14pt;
+  line-height: 1.75em;
+  color: #4c4c4c;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #1d1d1d;
+}
+h2,
+h3 {
+  font-size: 1.6em;
+  letter-spacing: -1px;
+  margin: 0 0 0.75em 0;
+}
+strong {
+  color: #1d1d1d;
+}
+a {
+  color: #478903;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+}
+.divider {
+  border-top: solid 1px #e5e5e5;
+  border-bottom: solid 1px #e5e5e5;
+  height: 4px;
+  margin: 2em 0 2em 0;
+}
+.divider-top {
+  margin-bottom: 0;
+}
+.divider-bottom {
+  margin-top: 0;
+}
+.cta-box {
+  background: url('images/bg2.png');
+  text-align: center;
+  padding: 1.25em 0 1.25em 0;
+  text-shadow: 1px 2px 0px #fff;
+  font-size: 2em;
+}
+.cta-box .button {
+  margin-left: 0.8em;
+}
+.highlight-box {
+  background: url('images/bg2.png');
+  text-align: center;
+  padding: 3.5em 0 3.5em 0;
+  text-shadow: 1px 2px 0px #fff;
+}
+.highlight-box h2 {
+  font-size: 3.2em;
+  letter-spacing: -3px;
+  margin: 0 0 0.6em 0;
+}
+.highlight-box span {
+  font-size: 2em;
+  color: #a1a1a1;
+}
+.thumbnails .divider {
+  border-bottom: 0;
+  border-top: solid 1px #e5e5e5;
+  margin: 1em 0 1em 0;
+}
+.thumbnails .thumbnail {
+  overflow: hidden;
+}
+.ipWidget-IpImage img,
+.ipWidget-IpImageGallery img {
+  border: solid 5px #fff;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+  float: left;
+  margin-right: 25px;
+}
+.thumbnails .thumbnail blockquote {
+  margin: 0 0 0.75em 0;
+  margin-left: 130px;
+}
+.thumbnails .thumbnail cite {
+  color: #888;
+  margin-left: 130px;
+  display: block;
+}
+.thumbnails .thumbnail cite strong {
+  padding-right: 0.25em;
+}
+#main-wrapper {
+  background-color: #fff;
+  padding: 2em 0 4em 0;
+}
+#header-wrapper {
+  box-shadow: inset 0px 10px 80px 0px rgba(0,0,0,0.2);
+  position: relative;
+  padding: 2.25em 0 2.25em 0;
+}
+#footer-wrapper {
+  padding: 3.5em 0 5em 0;
+  box-shadow: inset 0px 10px 60px 0px rgba(0,0,0,0.15);
+}
+#site-header {
+  background: #212121;
+  border-bottom: 15px solid #38C3FF;
+}
+#site-header #nav,
+#site-header .logo {
+  text-shadow: -1px -1px 1px #000000;
+}
+#site-footer p {
+  text-shadow: 1px 2px 0px #fff;
+}
+#site-footer a {
+  text-decoration: none;
+  color: #525252;
+}
+#site-footer a:hover {
+  text-decoration: underline;
+}
+#site-footer ul li {
+  line-height: 2.5em;
+}
+#site-footer .divider {
+  border-top: solid 1px #d0d0d0;
+  border-bottom: solid 1px #d0d0d0;
+  height: 4px;
+  margin: 1em 0 1em 0;
+}
+#copyright {
+  text-align: center;
+  color: #868686;
+}
+#copyright a {
+  color: #868686;
+}
+.subpage article {
+  padding: 0 1em 0 1em;
+}
+.subpage article.first {
+  padding: 0 1em 0 0;
+}
+.subpage article.last {
+  padding: 0 0 0 1em;
+}
+.subpage h2 {
+  font-size: 2.2em;
+}
+.subpage p {
+  margin: 0 0 1.5em 0;
+}
+.subpage section,
+.subpage article {
+  margin: 0 0 2em 0;
+}
+body {
+  margin: 0 auto;
+  width: 100%;
+}
+.banner,
+.bannerStrong {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+#cboxWrapper {
+  font-size: 0.75 em;
+  line-height: 1em;
+}
+.ipPreviewWidget h1,
+.ipPreviewWidget h2,
+.ipPreviewWidget h3,
+.ipPreviewWidget h4,
+.ipPreviewWidget p {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.ipmErrorMessage,
+.ipModuleForm .ipmControlInput,
+.ipModuleForm .ipmControlSelect,
+.ipModuleForm .ipmControlTextarea {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 100%;
+}
+.ipmFileContainer {
+  max-width: 380px;
+}
+.ipmString {
+  line-height: 100%;
+}
+@media (max-width: 480px) {
+  .container {
+    width: inherit;
+  }
+  .body img {
+    width: 100%;
+    height: auto;
+  }
+  .logo {
+    clear: both;
+    display: block;
+    float: none;
+    text-align: center;
+    padding: 0;
+  }
+  #header-wrapper {
+    padding: 0;
+  }
+  #nav {
+    padding-right: 0;
+    padding-bottom: 15px;
+  }
+  #nav,
+  #nav ul li {
+    float: none;
+    margin: 0;
+  }
+  #nav ul li {
+    clear: both;
+    line-height: normal;
+    padding: 0;
+  }
+  #nav a {
+    display: block;
+    text-align: center;
+  }
+  .row > * {
+    padding: 0;
+    width: 100%;
+  }
+  .subpage {
+    padding: 0;
+  }
+  .ipBlock {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+}
+@media (min-width: 480px) {
+  .subpage {
+    padding-top: 4em !important;
+  }
+  #ipBlock-home1 .ipWidget-IpImageGallery li,
+  #ipBlock-home2 .ipWidget-IpImageGallery li,
+  #ipBlock-home3 .ipWidget-IpImageGallery li {
+    width: 50%;
+  }
+}
